@@ -108,6 +108,8 @@ locations:
 
 This is an online event starting at [09:00 British Summer Time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Instructor+training+workshop&iso=20190725T09&p1=136). We will meet using the online videoconference software Zoom. You will need to <a href="https://zoom.us/download">download and install their client</a> to connect with your instructors. The link to use for this event is <{{ loc.address }}>.
 
+<a href="https://docs.google.com/document/d/1Sgf14iHgpZRjf1-dxd1dajamjnrcI0CeBFBRLIqo224/edit">Shared google document</a>
+
 {% else %}
 {% assign inperson = "true" %}
 {{ loc.address }} {% if loc.latlng %} Get directions with
@@ -119,6 +121,8 @@ This is an online event starting at [09:00 British Summer Time](https://www.time
 {% endfor %}
 
 {% if inperson == "true" %}
+
+
 
 <h4 id="accessibility">Accessibility</h4>
 
